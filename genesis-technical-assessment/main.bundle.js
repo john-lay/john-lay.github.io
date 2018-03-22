@@ -268,7 +268,6 @@ var ShotDetailsComponent = /** @class */ (function () {
     }
     ShotDetailsComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.getDetails();
         this.route.params.map(function (params) { return params['id']; })
             .do(function (id) { return _this.id = parseInt(id, 10); })
             .subscribe(function (id) { return _this.getDetails(); });
