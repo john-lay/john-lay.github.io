@@ -38,7 +38,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 var routes = [
-    { path: '', pathMatch: 'full', redirectTo: '', component: __WEBPACK_IMPORTED_MODULE_2__shared_components_shot_list_shot_list_component__["a" /* ShotListComponent */] },
+    { path: '', pathMatch: 'full', redirectTo: '/genesis-techical-assessment', component: __WEBPACK_IMPORTED_MODULE_2__shared_components_shot_list_shot_list_component__["a" /* ShotListComponent */] },
     { path: 'shot/:id', component: __WEBPACK_IMPORTED_MODULE_3__shared_components_shot_details_shot_details_component__["a" /* ShotDetailsComponent */] }
 ];
 var AppRoutingModule = /** @class */ (function () {
