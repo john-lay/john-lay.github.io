@@ -401,7 +401,7 @@ module.exports = "<div class=\"shot-container\">\r\n  <img src=\"{{shot.Thumbnai
 /***/ "./src/app/shared/components/shot/shot.component.less":
 /***/ (function(module, exports) {
 
-module.exports = ".tile-box-shadow {\n  -webkit-box-shadow: 0px 0px 12px 1px #ababab;\n  box-shadow: 0px 0px 12px 1px #ababab;\n}\n.shot-container {\n  position: relative;\n  width: 224px;\n  height: 186px;\n  background-color: #fff;\n  padding: 12px 12px 24px 12px;\n  -webkit-box-shadow: 0px 0px 12px 1px #ababab;\n  box-shadow: 0px 0px 12px 1px #ababab;\n}\n.shot-container .thumbnail-image {\n  width: 200px;\n  height: 150px;\n}\n.shot-container .shot-details {\n  position: absolute;\n  top: 12px;\n  width: 200px;\n  height: 150px;\n  background-color: rgba(255, 255, 255, 0.8);\n  padding: 3px;\n  text-decoration: none;\n}\n.shot-container .shot-date {\n  color: #3a8bbb;\n}\n"
+module.exports = ".tile-box-shadow {\n  -webkit-box-shadow: 0px 0px 12px 1px #ababab;\n  box-shadow: 0px 0px 12px 1px #ababab;\n}\n.shot-container {\n  position: relative;\n  width: 224px;\n  height: 186px;\n  background-color: #fff;\n  padding: 12px 12px 24px 12px;\n  -webkit-box-shadow: 0px 0px 12px 1px #ababab;\n  box-shadow: 0px 0px 12px 1px #ababab;\n}\n.shot-container .thumbnail-image {\n  width: 200px;\n  height: 150px;\n}\n.shot-container .shot-details {\n  position: absolute;\n left: 12px;\n top: 12px;\n  width: 200px;\n  height: 150px;\n  background-color: rgba(255, 255, 255, 0.8);\n  padding: 3px;\n  text-decoration: none;\n}\n.shot-container .shot-date {\n  color: #3a8bbb;\n}\n"
 
 /***/ }),
 
