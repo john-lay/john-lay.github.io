@@ -524,12 +524,12 @@ var ShotService = /** @class */ (function () {
         var _this = this;
         this.http = http;
         this.getShots = function () {
-            return _this.http.get('assets/shots.json')
+            return _this.http.get('genesis-technical-assessment/assets/shots.json')
                 .map(function (response) { return response.json().data; })
                 .catch(_this.handleError);
         };
         this.getShotDetails = function (id) {
-            return _this.http.get('assets/shot-details.json')
+            return _this.http.get('genesis-technical-assessment/assets/shot-details.json')
                 .map(function (response) {
                 var data = response.json().data;
                 return data.filter(function (shot) { return shot.Id === id; })[0];
