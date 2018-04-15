@@ -1,0 +1,147 @@
+body {
+	background-color: #182226;
+}
+
+footer {
+	color: #dedede;
+	margin-left: 1em;
+}
+
+.navbar-gv {
+	border-radius: 0;
+	margin-bottom: 0;
+	background-color: #12191f;	
+}
+
+.navbar-gv .navbar-right {
+	margin-right: 0;	
+}
+
+.navbar-brand .finger-print {
+	display: inline;
+	margin-right: 1em;
+}
+
+.glyphicon-gv {
+	color: #baa277;
+	margin-right: 1em;
+}
+
+.gv-content {
+	background-color: #182226;
+	padding-top: 1em;
+}
+
+.nav-sidebar-gv .active {
+	background-color: #baa277;
+	border-radius: 4px;
+}
+
+.nav-sidebar-gv .active a {
+	color: #1d1f1e;
+}
+
+.nav-sidebar-gv .active a:hover {
+	color: #1d1f1e;
+	background-color: #fff !important;
+}
+
+.nav-sidebar-gv a {
+	border-radius: 4px;
+	color: #dedede;
+}
+
+.nav-sidebar-gv .glyphicon {
+	margin-right: 1em;
+}
+
+.nav-sidebar-gv a:hover {
+	background-color: #12191f !important;
+	color: #fff;
+}
+
+.gv-heading {
+	font-size: 2em;
+	font-weight: bold;
+	color: #fff;
+}
+
+.gv-tour-button {
+	border: 1px solid #baa277;
+	border-radius: 4px;
+	padding-left: 1em;
+	margin-top: 8px;
+}
+
+.gv-tour-text {
+	color: #dedede;
+	margin-right: 1em;	
+}
+
+.gv-strapline {
+	margin-top: 8px;
+	color: #dedede;
+}
+
+.gv-widget {
+	background-color: #12191f;
+	border-radius: 4px;
+	padding: 2em;
+	margin-top: 1em;
+}
+
+.gv-widget img {
+	display: block;
+	margin: 0 auto;
+}
+
+.gv-widget-dynamic {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.gv-widget-dynamic div {
+	padding: 0;
+}
+
+.gv-widget-dynamic-content {
+	font-size: 0.85em;
+	color: #dedede;
+}
+
+.gv-widget-dynamic-content h4 {
+	color: #fff;
+}
+
+.gv-widget-dynamic .traffic-lights {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.gv-widget-dynamic .traffic-lights .dot {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.gv-widget-dynamic .traffic-lights .dot.green {
+	background-color: #27e375;
+}
+
+.gv-widget-dynamic .traffic-lights .dot.amber {
+	background-color: #f0bc43;
+}
+
+.gv-widget-dynamic .traffic-lights .dot.red {
+	background-color: #f54c62;
+}
+
+@media (max-width: 576px) {
+	.gv-widget img {
+		width: 100%;
+		height: 50%;
+	}
+}

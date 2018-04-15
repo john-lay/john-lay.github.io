@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Get Visibility</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="gv.css" />
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-gv">  
+    <div class="navbar-header">      
+      <a class="navbar-brand" href="#"><img class="finger-print" src="finger-print.png" height="24" width="18" alt="Get Visibility Logo" />GETVISIBILITY</a>
+    </div>
+	<div class="navbar-nav navbar-right">
+	<ul class="nav navbar-nav">        
+        <li>
+			<a href="#">
+				<span class="glyphicon glyphicon-user"></span>
+				admin@getvisibility.com
+				<span class="caret"></span>
+			</a>
+		</li>
+        <li>
+			<a href="#">
+			  <span class="glyphicon glyphicon-log-out glyphicon-gv"></span>
+		  </a>
+		</li>
+	</ul>
+	</div>
+</nav>
+<div class="container-fluid gv-content">
+	<div class="row">
+		<div class="col-md-2 sidebar">
+		  <ul class="nav nav-sidebar nav-sidebar-gv">
+			<li class="active"><a href="#"><span class="glyphicon glyphicon-refresh"></span>Activity</a></li>
+			<li><a href="#"><span class="glyphicon glyphicon-th-list"></span>Compliance</a></li>
+			<li><a href="#"><span class="glyphicon glyphicon-search"></span>Classification</a></li>
+			<li><a href="#"><span class="glyphicon glyphicon-warning-sign"></span>Data Control</a></li>
+			<li><a href="#"><span class="glyphicon glyphicon-random"></span>Data Lineage</a></li>
+			<li><a href="#"><span class="glyphicon glyphicon-cloud"></span>Data Protection</a></li>
+			<li><a href="#"><span class="glyphicon glyphicon-flag"></span>PII Tracking</a></li>
+			<li><a href="#"><span class="glyphicon glyphicon-stats"></span>Reports</a></li>
+			<li><a href="#"><span class="glyphicon glyphicon-user"></span>User Management</a></li>
+			<li><a href="#"><span class="glyphicon glyphicon-cog"></span>Configuration</a></li>
+			<li><a href="#"><span class="glyphicon glyphicon-flash"></span>Support</a></li>
+		  </ul>
+		</div>
+		<div class="col-md-10 main">
+			<div class="row">
+				<div class="col-md-3"><span class="gv-heading">Welcome to GV!</span></div>
+				<div class="col-md-2">
+					<div class="gv-tour-button">
+						<span class="gv-tour-text">Go On Tour</span>
+						<span class="glyphicon glyphicon-arrow-right"></span>
+					</div>
+				</div>
+				<div class="col-md-7"><span class="pull-right gv-strapline">The ultimate solution for data classification at rest and on-the-fly</span></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"><div class="gv-widget"><img src="widget-1.png" width="180" height="96" alt="Found Files" /></div></div>
+				<div class="col-md-3"><div class="gv-widget"><img src="widget-2.png" width="180" height="96" alt="Classified Files" /></div></div>
+				<div class="col-md-3"><div class="gv-widget"><img src="widget-3.png" width="180" height="96" alt="Duplicate Files" /></div></div>
+				<div class="col-md-3"><div class="gv-widget"><img src="widget-4.png" width="180" height="96" alt="Confidence Level" /></div></div>
+			</div>
+			<br />
+			<div class="row">
+				<div class="col-md-6">
+					<div class="gv-widget gv-widget-dynamic row">
+						<div class="col-md-6 gv-widget-dynamic-content">
+							<h4>Compliance Readiness</h4>
+							<div>Remediate open incidents, review uninspectable data, and install agents across organisation to improve your readiness level.</div>
+							<br />
+							<ul class="traffic-lights">
+								<li><span class="dot green"></span>GDPR Readiness</li>
+								<li><span class="dot amber"></span>Unprotected Devices (in the network)</li>
+								<li><span class="dot red"></span>Uninspecable data</li>
+							</ul>
+						</div>
+						<div class="col-md-5 col-md-offset-1">
+							<canvas id="ChartArea" width="200" height="200"></canvas>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6"><div class="gv-widget"><img src="widget-6.png" width="412" height="185" alt="Sensitive files activity" /></div></div>
+			</div>
+			<br />
+			<div class="row">
+				<div class="col-md-6"><div class="gv-widget"><img src="widget-7.png" width="412" height="185" alt="Open access to sensitive files" /></div></div>
+				<div class="col-md-6"><div class="gv-widget"><img src="widget-8.png" width="412" height="185" alt="Active incidents" /></div></div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="container-fluid">&copy;2018 by Getvisibility</div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+<script src="compliance-readiness.js"></script>
+</body>
+</html>
