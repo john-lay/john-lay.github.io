@@ -1,0 +1,21 @@
+﻿.navbar-iso {
+    background-color: #a9b849;
+    border-color: #6e6e20;
+    text-transform: uppercase;
+}
+
+.navbar-iso .navbar-brand,
+.navbar-iso .navbar-nav > li > a {
+    color: #384030;
+    font-weight: bold;
+}
+
+.navbar-iso .navbar-brand:hover,
+.navbar-iso .navbar-nav > li > a:hover {
+    color: #000;
+    background: none;
+}
+
+.navbar-iso .navbar-nav > li.active {
+     background-color: #6e6e20;
+}
