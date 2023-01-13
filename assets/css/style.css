@@ -19,8 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
-  background-size: cover;
+  background: #000 url(../img/demo-bg.jpg) 0 0 repeat;
   left: 0;
   right: 0;
   top: 0;
@@ -428,6 +427,14 @@ section .container {
   margin-right: 5px;
   color: #18d26e;
   line-height: 0;
+}
+
+.about-me .content ul li.minor i {
+    margin-left: 2rem;
+    font-size: 12px;
+}
+.about-me .content ul li.minor a {
+    font-size: 12px;
 }
 
 .about-me .content p:last-child {
